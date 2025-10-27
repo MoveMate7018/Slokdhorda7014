@@ -32,7 +32,7 @@
       color: white;
      opacity: 0;
      transform: scale(0.9) translateY(30px);
-     animation: slideInScale 1s ease-out 0.4s forwards;
+     animation: slideInScale 1s ease-out 0.3s forwards;
    }
 
      @keyframes slideInScale{
@@ -55,7 +55,7 @@
       margin-bottom: 10px;
       letter-spacing: 1px;
       opacity: 0;
-      animation: fadeInUp 0.8s ease-out 1s forwards;
+      animation: fadeInUp 0.8s ease-out 0.5s forwards;
     }
     @keyframes fadeInUp {
       to {
@@ -80,7 +80,7 @@
       font-size: 0.9rem;
       margin-bottom: 25px;
       opacity: 0;
-      animation: fadeInUp 0.8s ease-out 1s forwards;
+      animation: fadeInUp 0.8s ease-out 0.7s forwards;
     }
       @keyframes fadeInBody{
           to{
@@ -156,8 +156,7 @@
       font-weight: 600;
       cursor: pointer;
       transition: 0.3s;
-    } 
-
+    }
     .login-btn:hover {
       background-color: #e67e22;
     }
@@ -189,7 +188,7 @@
 
      .container form h1{
          opacity: 0;
-         animation: fadeInUp 0.8s ease-out 1s forwards;
+         animation: fadeInUp 0.8s ease-out 0.8s forwards;
      }
      
      .container form .social-list{

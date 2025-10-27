@@ -22,22 +22,28 @@
     <p class="tagline">On Time, Every Time</p>
 
     <form action="homepage.html">
+       <div class="extra-login-options">
+          <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+          <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+          <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
       <div class="input-box">
         <input type="text" placeholder="Username" required>
       </div>
       <div class="input-box">
         <input type="password" placeholder="Password" required>
       </div>
-
+      
       <div class="remember">
-        <input type="checkbox" id="remember"> 
-        <label for="remember">Remember me</label>
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember" class="remember-label"><span class="custom-checkbox" aria-hidden="true"></span> Remember me</label>
       </div>
 
       <button type="submit" class="login-btn">Login</button>
 
       <div class="links">
-        <a href="#">Forgot Password?</a> | 
+        <a href="#">Forgot Password?</a> &nbsp;&nbsp; 
         <a href="registration.html">Sign Up</a>
       </div>
     </form>

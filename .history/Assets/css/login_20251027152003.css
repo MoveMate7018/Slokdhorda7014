@@ -32,7 +32,7 @@
       color: white;
      opacity: 0;
      transform: scale(0.9) translateY(30px);
-     animation: slideInScale 1s ease-out 0.4s forwards;
+     animation: slideInScale 1s ease-out 0.5s forwards;
    }
 
      @keyframes slideInScale{

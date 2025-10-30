@@ -1,265 +1,273 @@
 * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: "Poppins", sans-serif;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
-    body {
-      height: 100vh;
-      background: linear-gradient(to right, #2980B9, #6DD5FA,#FFFFFF);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
-    }
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #2980b9, #7cc2d5, #2980b9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 
-    .container {
-      width: 400px;
-      background: rgba(255, 255, 255, 0.15);
-      border-radius: 15px;
-      backdrop-filter: blur(10px);
-      box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
-      text-align: center;
-      padding: 40px 30px;
-      color: black;
-      opacity: 0;
-      animation: fadeInDown 2.5s ease-out 0.4s forwards;
-    }
-    @keyframes fadeInDown {
-      0% {  
-        opacity: 0;
-        transform: translateY(-20px);
-      } 
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-      .container h1{
-        font-size: 2rem;
-        margin-bottom: 20px;
-       
-      }
-
-     .create{
-      font-size: 1rem;
-      margin-bottom: 20px;
-      }
-    .logo {
-      font-size: 2.2rem;
-      font-weight: 800;
-      color: black;
-      margin-bottom: 10px;
-      letter-spacing: 1px;
-    }
-
-    .logo i {
-      color: #ff9800;
-      margin-right: 8px;
-      animation: bounceTruck 1.5s infinite;
-    }
-
-    @keyframes bounceTruck {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-4px); }
-    }
-
-
-
-    p.tagline {
-      color: #000000;
-      font-size: 0.9rem;
-      margin-bottom: 25px;
-      
-    }
-
-    .input-box {
-      width: 100%;
-      margin-bottom: 20px;
-      position: relative;
-    }
-
-    .input-box input {
-      width: 100%;
-      padding: 12px 15px;
-      border: none;
-      border-radius: 8px;
-      outline: none;
-      font-size: 1rem;
-      color: #333;
-    }
-
-    .input-box input::placeholder {
-      color: #888;
-    }
-
-    .remember {
-      text-align: left;
-      font-size: 0.9rem;
-      margin-bottom: 20px;
-      color: #000000;
-    }
-
-    .login-btn {
-      width: 100%;
-      background-color: #ff9800;
-      color: rgb(0, 0, 0);
-      border: none;
-      border-radius: 8px;
-      padding: 12px;
-      font-size: 1rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-
-    .login-btn:hover {
-      background-color: #e67e22;
-    }
-
-    .links {
-      margin-top: 20px;
-      font-size: 0.9rem;
-    }
-
-    .links a {
-      color: #000000;
-      text-decoration: none;
-      margin: 0 8px;
-    }
-
-    .links a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 420px) {
-      .container {
-        width: 90%;
-        padding: 30px 20px;
-      }
-      .logo {
-        font-size: 1.8rem;
-      }
-    }
-    .social-list a{
-       border: 1px solid #1F1C18;
-       color: white;
-       border-radius: 20%;
-       display: inline-flex;
-       justify-content: center;
-       align-items: center;
-       margin: 0 3px;
-       width: 40px;
-       height: 40px;
-       text-decoration: none;
-      }   
-
-   .social-list{
-     margin: 20px 0;
-    
-   }
-
-   .container .logo{
+.container {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 40px 30px;
+  color: black;
+  opacity: 0;
+  animation: fadeInDown 2.5s ease-out 0.4s forwards;
+}
+@keyframes fadeInDown {
+  0% {
     opacity: 0;
-    animation: fadeInUp 0.8s ease-out 0.8s forwards;
-   }
-   @keyframes fadeInUp {
-     0% {
-       opacity: 0;
-       transform: translateY(20px);
-     }
-     100% {
-       opacity: 1;
-       transform: translateY(0);
-     }
-   }
-   .tagline{
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.container form input:hover {
+  box-shadow: 0 0 8px #1874ff;
+}
+
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.create {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.logo {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: black;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.logo i {
+  color: #ff9800;
+  margin-right: 8px;
+  animation: bounceTruck 1.5s infinite;
+}
+
+@keyframes bounceTruck {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+p.tagline {
+  color: #000000;
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+}
+
+.input-box {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  color: #333;
+}
+
+.input-box input::placeholder {
+  color: #888;
+}
+
+.remember {
+  text-align: left;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: #ff9800;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #e67e22;
+}
+
+.links {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.links a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 90%;
+    padding: 30px 20px;
+  }
+  .logo {
+    font-size: 1.8rem;
+  }
+}
+.social-list a {
+  border: 1px solid #1f1c18;
+  color: white;
+  border-radius: 20%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+}
+
+.social-list {
+  margin: 20px 0;
+}
+.social-list a:hover {
+  background-color: #ff9800;
+  color: black;
+  transition: 0.3s;
+}
+
+.container .logo {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 0.8s forwards;
+}
+@keyframes fadeInUp {
+  0% {
     opacity: 0;
-    animation: fadeInUp 0.8s ease-out 0.9s forwards;
-   }  
-   @keyframes fadeInUp {
-     0% {
-       opacity: 0;
-       transform: translateY(20px);
-     }
-     100% {
-       opacity: 1;
-       transform: translateY(0);
-     }
-   }
-   .Create{
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.tagline {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 0.9s forwards;
+}
+@keyframes fadeInUp {
+  0% {
     opacity: 0;
-    animation: fadeInUp 0.8s ease-out 1s forwards;
-   }
-    @keyframes fadeInUp {
-      0% {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    .social-list a{
-      opacity: 0;
-      animation: fadeInUp 0.8s ease-out 1.2s forwards;
-    }
-    @keyframes fadeInUp {
-      0% {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    .container form .input-box{
-        opacity: 0;
-        animation: fadeInUp 0.8s ease-out 1.3s forwards;
-      }
-    .remember{
-      opacity: 0;
-      animation: fadeInUp 0.8s ease-out 1.4s forwards;
-    }
-    @keyframes fadeInUp {
-      0% {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    .container form .login-btn{
-      opacity: 0;
-      animation: fadeInUp 0.8s ease-out 2s forwards;
-    }
-    @keyframes fadeInUp {
-      0% {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    .links a{
-      opacity: 0;
-      animation: fadeInUp 0.8s ease-out 2.2s forwards;
-    } 
-    @keyframes fadeInUp {
-      0% {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.Create {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 1s forwards;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.social-list a {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 1.2s forwards;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.container form .input-box {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 1.3s forwards;
+}
+.remember {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 1.4s forwards;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.container form .login-btn {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 2s forwards;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.links a {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 2.2s forwards;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

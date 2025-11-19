@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>MoveMate - Our Services</title>
-    <link rel="stylesheet"
-      href="Assets/css/service.css">
+    <title>MoveMate - Fast & Reliable Goods Transportation</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -17,9 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="Assets/css/homepage.css" />
   </head>
   <body>
-    <!-- Vertical Left Navbar -->
+
     <nav class="vertical-nav">
       <div class="logo-section">
         <div class="logo">
@@ -29,7 +27,7 @@
       </div>
 
       <div class="nav-links">
-        <a href="index.html" class="nav-item">
+        <a href="#home" class="nav-item active">
           <i class="fas fa-home"></i>
           <span>Home</span>
         </a>
@@ -37,7 +35,7 @@
           <i class="fa fa-info-circle"></i>
           <span>About Us</span>
         </a>
-        <a href="service.html" class="nav-item active">
+        <a href="service.html" class="nav-item">
           <i class="fas fa-briefcase"></i>
           <span>Service</span>
         </a>
@@ -62,71 +60,72 @@
         </a>
       </div>
     </nav>
-
-    <!-- Main Content -->
+   
     <main class="main-content">
-      <section id="service" class="services-section">
-        <div class="services-container">
-          <div class="section-header">
-            <h2>Our Premium Services</h2>
-            <p>Tailored logistics solutions for every business need</p>
-          </div>
-          <div class="services-grid">
-            <div class="service-card">
-              <i class="fas fa-truck-moving"></i>
-              <h3>Local Transport</h3>
-              <p>
-                Fast and reliable local delivery services within your city.
-                Perfect for urgent deliveries, same-day shipping, and intra-city
-                goods movement.
-              </p>
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="tagline-badge">
+              <i class="fas fa-shipping-fast"></i>
+              <span>India's Most Trusted Logistics Partner</span>
             </div>
-            <div class="service-card">
-              <i class="fas fa-road"></i>
-              <h3>Interstate Logistics</h3>
-              <p>
-                Seamless transportation across state borders. We handle all
-                documentation and ensure smooth transit of your goods
-                nationwide.
-              </p>
+            <h1 class="hero-title">
+              Move Your Goods
+              <span class="highlight">Fast & Secure</span>
+            </h1>
+           
+            <p class="hero-subtitle">
+              Professional transportation solutions for all your delivery needs.
+              Trust MoveMate for on-time, safe, and affordable goods transport
+              across 1200+ cities in India.
+            </p>
+
+            <div class="hero-buttons">
+              <button class="btn-primary">
+                <span>Book Now</span>
+                <i class="fas fa-arrow-right"></i>
+              </button>
+              <button class="btn-secondary">
+                <i class="fas fa-phone-alt"></i>
+                <span>Call: 1800-MOVEMATE</span>
+              </button>
             </div>
-            <div class="service-card">
-              <i class="fas fa-warehouse"></i>
-              <h3>Warehousing</h3>
-              <p>
-                Secure storage facilities with climate control and 24/7
-                surveillance. Short-term and long-term storage solutions
-                available.
-              </p>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <h3>10K+</h3>
+                <p>Happy Customers</p>
+              </div>
+              <div class="stat-item">
+                <h3>1200+</h3>
+                <p>Cities Covered</p>
+              </div>
+              <div class="stat-item">
+                <h3>4.9★</h3>
+                <p>Average Rating</p>
+              </div>
+              <div class="stat-item">
+                <h3>24/7</h3>
+                <p>Customer Support</p>
+              </div>
             </div>
-            <div class="service-card">
-              <i class="fas fa-snowflake"></i>
-              <h3>Cold Chain</h3>
+            <div class="trust-line">
+              <i class="fas fa-shield-check"></i>
               <p>
-                Temperature-controlled transportation for perishable goods.
-                Maintain product integrity with our specialized refrigerated
-                vehicles.
-              </p>
-            </div>
-            <div class="service-card">
-              <i class="fas fa-bolt"></i>
-              <h3>Express Delivery</h3>
-              <p>
-                Lightning-fast shipping for time-sensitive cargo. Get your goods
-                delivered within hours with our premium express service.
-              </p>
-            </div>
-            <div class="service-card">
-              <i class="fas fa-box-open"></i>
-              <h3>Packaging Solutions</h3>
-              <p>
-                Professional packing services to ensure maximum protection. We
-                use high-quality materials for safe and secure packaging.
+                <strong>100% Secure & Insured</strong> - Your goods are
+                protected with full insurance coverage
               </p>
             </div>
           </div>
-        </div>
+           <div class="hero-image">
+            <img class="images" src="Assets/images/707d73756ebad78a8ee99083e4cbd78e.jpg" alt="Hero Image"/>
+            <img  class="images2" src="Assets/images/ca551bde8bd261b9d07adfb0acef1771.jpg" alt="">
+          </div>
+
       </section>
+     
+
+      <!-- Why Choose Section -->
       <section class="why-section">
         <div class="why-container">
           <div class="section-header">
@@ -208,6 +207,71 @@
         </div>
       </section>
 
+      <!-- Services Overview -->
+      <section class="services-section">
+        <div class="services-container">
+          <div class="section-header">
+            <h2>Our Premium Services</h2>
+            <p>Tailored logistics solutions for every business need</p>
+          </div>
+          <div class="services-grid">
+            <div class="service-card">
+              <i class="fas fa-truck-moving"></i>
+              <h3>Local Transport</h3>
+              <p>
+                Fast and reliable local delivery services within your city.
+                Perfect for urgent deliveries, same-day shipping, and intra-city
+                goods movement.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-road"></i>
+              <h3>Interstate Logistics</h3>
+              <p>
+                Seamless transportation across state borders. We handle all
+                documentation and ensure smooth transit of your goods
+                nationwide.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-warehouse"></i>
+              <h3>Warehousing</h3>
+              <p>
+                Secure storage facilities with climate control and 24/7
+                surveillance. Short-term and long-term storage solutions
+                available.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-snowflake"></i>
+              <h3>Cold Chain</h3>
+              <p>
+                Temperature-controlled transportation for perishable goods.
+                Maintain product integrity with our specialized refrigerated
+                vehicles.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-bolt"></i>
+              <h3>Express Delivery</h3>
+              <p>
+                Lightning-fast shipping for time-sensitive cargo. Get your goods
+                delivered within hours with our premium express service.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-box-open"></i>
+              <h3>Packaging Solutions</h3>
+              <p>
+                Professional packing services to ensure maximum protection. We
+                use high-quality materials for safe and secure packaging.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
       <section class="cta-section">
         <div class="cta-content">
           <h2>Ready to Move Your Goods?</h2>

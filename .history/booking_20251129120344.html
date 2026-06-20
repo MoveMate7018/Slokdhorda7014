@@ -4,11 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MoveMate - Booking</title>
-  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   <style>
     body {
       margin: 0;
@@ -141,44 +138,6 @@
       right: -80px;
     }
 
-    /* Back to Home Button */
-    .back-to-home {
-      position: fixed;
-      top: 20px;
-      left: 20px;
-      width: 50px;
-      height: 50px;
-      background: rgba(255, 255, 255, 0.15);
-      backdrop-filter: blur(10px);
-      border: 2px solid rgba(255, 255, 255, 0.3);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-decoration: none;
-      font-size: 1.2rem;
-      transition: all 0.3s ease;
-      z-index: 1000;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    .back-to-home:hover {
-      background: rgba(255, 255, 255, 0.25);
-      border-color: rgba(255, 255, 255, 0.5);
-      transform: translateY(-2px) scale(1.1);
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-      color: #007bff;
-    }
-
-    .back-to-home i {
-      transition: transform 0.3s ease;
-    }
-
-    .back-to-home:hover i {
-      transform: translateX(-3px);
-    }
-
     /* Responsive adjustments */
     @media (max-width: 768px) {
       .booking-container {
@@ -257,11 +216,6 @@
   <div class="shape shape1"></div>
   <div class="shape shape2"></div>
   
-  <!-- Back to Home Button -->
-  <a href="index.html" class="back-to-home" title="Back to Home">
-    <i class="fas fa-arrow-left"></i>
-  </a>
-  
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-sm-11 col-md-10 col-lg-8 col-xl-7">
@@ -270,7 +224,7 @@
             <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/100/000000/external-logistics-logistics-flaticons-lineal-color-flat-icons.png" alt="MoveMate Logo" class="img-fluid" />
             <h2>MoveMate Transport Booking</h2>
           </div>
-        
+
           <form>
             <div class="row">
               <div class="col-12">
@@ -321,5 +275,6 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
